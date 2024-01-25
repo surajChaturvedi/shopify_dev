@@ -1,5 +1,6 @@
 <div class="wrapper">
     {{ 'style.css' | asset_url | stylesheet_tag }}
-{}
+{%for collection in collections%}
+{% endfor %}
 </div>
 
