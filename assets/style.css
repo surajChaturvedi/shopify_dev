@@ -9,9 +9,9 @@ img{
     height: auto; /* Maintain aspect ratio */
     border: 2px solid #ddd; /* Add a border */
     border-radius: 8px; /* Optional: Add border-radius for rounded corners */
+    float: center;
   }
 
  .wrapper{
-
-    text-align: right;
+    text-align: center
  }
