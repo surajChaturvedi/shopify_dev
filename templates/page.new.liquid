@@ -8,7 +8,7 @@
 
     {% for product in collection.products %}
         <h2>{{ product.title }}</h2>
-        <h2>{{ product.price | mo}}</h2>
+        <h2>{{ product.price |  money_with_currency}}</h2>
       
             
         {% else %}
