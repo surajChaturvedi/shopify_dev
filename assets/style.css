@@ -4,8 +4,8 @@ h1{
 }
 
 img{
-    width: 150%;
-    max-width: 600px; /* Set a maximum width for responsiveness */
+    width: 200%;
+    max-width: 700px; /* Set a maximum width for responsiveness */
     height: auto; /* Maintain aspect ratio */
     border: 2px solid #ddd; /* Add a border */
     border-radius: 8px; /* Optional: Add border-radius for rounded corners */
