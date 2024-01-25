@@ -3,7 +3,7 @@ h1{
     color: red
 }
 
-img {
+img{
     width: 100%;
     max-width: 500px; /* Set a maximum width for responsiveness */
     height: auto; /* Maintain aspect ratio */
