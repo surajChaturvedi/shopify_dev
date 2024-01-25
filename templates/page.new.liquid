@@ -13,9 +13,9 @@
         <img src= {{product | image_url}} alt="{{ product.title }}">
         <h2>{{ product.title }}</h2>
         <h2>{{ product.price |  money_with_currency}}</h2>
+        <a href="{{product.url}}"> {{product.title}} - {{product.price |  money_with_currency}} </a>
         {% else %}
             <p>There is no product in {{collection.title}}</p>
-            <a href="{{product.url}}"> {{product.title}} - {{product.price |  money_with_currency}} </a>
         {% endfor %}
         
         </li>
