@@ -2,7 +2,7 @@
     {{ 'style.css' | asset_url | stylesheet_tag }}
 {% for collection in collections %}
     <h1>{{ collection.title }}</h1>
-    {% unless <collection class="description"></collection> %} 
+    {% unless collection.description == blank %} 
         
     {% endunless %}
 {% endfor %}
