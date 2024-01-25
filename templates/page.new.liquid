@@ -1,5 +1,8 @@
-{%assign newVariable = 'value of first variable auisdfjkb' %}
+<div class="wrapper">
+    {%assign myString = "Hello World"  %}
+  <p>{{myString}}</p>  
 
-{{newVariable}}
+    {%capture myString2 %}Hello World{%endcapture %}
+    <p>{{myString2}}</p>
+</div>
 
-{{shop.name}}
