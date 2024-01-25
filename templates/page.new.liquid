@@ -7,7 +7,7 @@
     {% unless collection.description == blank %} 
         <p>{{   collection.description}}</p>
     {% endunless %}
-    <a href="{{product.url}}">
+    
     {% for product in collection.products %}
       
         <img src= {{product | image_url}} alt="{{ product.title }}">
@@ -15,7 +15,7 @@
         <h2>{{ product.price |  money_with_currency}}</h2>
         {% else %}
             <p>There is no product in {{collection.title}}</p>
-        
+            <a href="{{product.url}}"> 
         {% endfor %}
         </a>
         </li>
