@@ -2,3 +2,11 @@ h1{
     font-family:'Courier New', Courier, monospace;
     color: red
 }
+
+img {
+    width: 100%;
+    max-width: 500px; /* Set a maximum width for responsiveness */
+    height: auto; /* Maintain aspect ratio */
+    border: 2px solid #ddd; /* Add a border */
+    border-radius: 8px; /* Optional: Add border-radius for rounded corners */
+  }
