@@ -3,7 +3,7 @@
 {% for collection in collections %}
     <h1>{{ collection.title }}</h1>
     {% unless collection.description == blank %} 
-        
+        <p>{{}}</p>
     {% endunless %}
 {% endfor %}
 </div>
