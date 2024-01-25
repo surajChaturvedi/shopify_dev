@@ -11,6 +11,6 @@ img{
     border-radius: 8px; /* Optional: Add border-radius for rounded corners */
   }
 
- div{
+ .wrapper{
     margin-left: 200px;
  }
