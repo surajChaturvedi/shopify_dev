@@ -15,9 +15,9 @@
         <h2>{{ product.price |  money_with_currency}}</h2>
         {% else %}
             <p>There is no product in {{collection.title}}</p>
-            <a href="{{product.url}}"> 
+            <a href="{{product.url}}"> </a>
         {% endfor %}
-        </a>
+        
         </li>
 {% endfor %}
 </div>
