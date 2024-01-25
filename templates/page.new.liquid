@@ -1,16 +1,16 @@
 <div class="wrapper">
     {%assign age = 24  %}
     {%assign string = "Hello world" %}
+    
+    {{age}}
 
-    {{}}
-
-    {% comment %} {%if age > 20%}
-       <h1>you can view</h1> 
-        {%elseif > 17%}
-            you can view
+    {% comment %} {%if age > 20 %}
+       <p>you can view</p> 
+        {% elseif  age > 17 %}
+            <p>you can view</h1> </p>
         {%else%}
-              you can not view
-            {%endif%} {% endcomment %}
+             <p> you can not view </p> 
+    {%endif%} {% endcomment %}
 
 </div>
 
