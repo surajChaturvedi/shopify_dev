@@ -6,7 +6,10 @@
         <p>{{   collection.description}}</p>
     {% endunless %}
 
-    {}
+    {% for product in collection.products %}
+        {% else %}
+            <p>There is no product in {{collection.title}}</p>
+        {% endfor %}
 
 {% endfor %}
 </div>
