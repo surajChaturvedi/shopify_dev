@@ -2,7 +2,7 @@
     {{ 'style.css' | asset_url | stylesheet_tag }}
 {% for collection in collections %}
     <li>
-        <a href="">
+        <a href="{{product.url}}">
     <h1>{{ collection.title }}</h1>
     {% unless collection.description == blank %} 
         <p>{{   collection.description}}</p>
