@@ -8,8 +8,9 @@
 
     {% for product in collection.products %}
         <h2>{{ product.title }}</h2>
-        <h2>{{ product.price }}</h2>
-        
+        <h2>{{ product.price | mo}}</h2>
+      
+            
         {% else %}
             <p>There is no product in {{collection.title}}</p>
         {% endfor %}
