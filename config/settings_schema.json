@@ -1476,10 +1476,10 @@
         "default": "#000000"
       },
       {
-        "type": "checkbox",
-        "id": "show_announcement",
-        "label": "Show announcement",
-        "default": true
+        "type": "text",
+        "id": "text1",
+        "label": "Text",
+        "default": "value"
       }
     ]
   }
