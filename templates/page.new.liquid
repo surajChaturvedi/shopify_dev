@@ -1,7 +1,6 @@
 <div class="wrapper">
     {{ 'style.css' | asset_url | stylesheet_tag }}
 {% for collection in collections %}
-    <li>
         
     <h1>{{ collection.title }}</h1>
     {% unless collection.description == blank %} 
@@ -18,7 +17,7 @@
             <p>There is no product in {{collection.title}}</p>
         {% endfor %}
         
-        </li>
+       
 {% endfor %}
 </div>
 
