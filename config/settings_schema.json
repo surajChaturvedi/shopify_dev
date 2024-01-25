@@ -1474,6 +1474,12 @@
         "id": "link_color",
         "label": "Link Color",
         "default": "#000000"
+      },
+      {
+        "type": "checkbox",
+        "id": "show_announcement",
+        "label": "Show announcement",
+        "default": true
       }
     ]
   }
