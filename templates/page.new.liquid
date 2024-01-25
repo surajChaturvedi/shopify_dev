@@ -1,19 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ page_title }}</title>
-  <style>
-    body {
-      background-color: red
-      font-family: Arial, sans-serif;
-    }
-    /* Add more CSS styles as needed */
-  </style>
-  <!-- Other head elements -->
-</head>
-<body>
-<h1>Hello world how are you </h1>
-</body>
-</html>
+<div class="wrapper">
+    {{ 'styles.css' | asset_url | stylesheet_tag }}
+<h1 class="heading">welcome to our page</h1>
+</div>
+
