@@ -12,5 +12,6 @@ img{
   }
 
  .wrapper{
-    margin-right :
+    display: flex;
+    text-align: right;
  }
