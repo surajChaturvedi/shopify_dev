@@ -4,9 +4,9 @@ h1{
 }
 
 img{
-    width: 100%;
-    max-width: 600px; /* Set a maximum width for responsiveness */
-    height: auto; /* Maintain aspect ratio */
+    width: 50%;
+    max-width: 200px; /* Set a maximum width for responsiveness */
+    height: ; /* Maintain aspect ratio */
     border: 2px solid black; /* Add a border */
     border-radius: 8px; /* Optional: Add border-radius for rounded corners */
     float: center;
