@@ -13,6 +13,6 @@ img{
   }
 
  .wrapper{
-    display: flex;
-    text-align: center;
+    display: inline;
+    /* text-align: center; */
  }
