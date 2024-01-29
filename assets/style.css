@@ -20,4 +20,5 @@ img{
  }
  .container-box{
     display: flex;
+    flex-direction: column;
  }
