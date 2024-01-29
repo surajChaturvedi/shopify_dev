@@ -1477,7 +1477,7 @@
       },
       {
         "type": "text",
-        "id": "text1",
+        "id": "text2",
         "label": "Text",
         "default": "value",
         "info": "Text",
