@@ -13,6 +13,5 @@ img{
   }
 
  .wrapper{
-    display: 
-    text-align: center
+    display: flex;
  }
