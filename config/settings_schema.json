@@ -1479,7 +1479,9 @@
         "type": "text",
         "id": "text1",
         "label": "Text",
-        "default": "value"
+        "default": "value",
+        "info": "Text",
+        "placeholder": "Text"
       }
     ]
   }
