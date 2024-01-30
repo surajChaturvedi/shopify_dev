@@ -1,14 +1,27 @@
-<h2>{{ product.title }}</h2>
-{{ product.description }}
-<form action="/cart/add" method="post" enctype="multipart/form-data">
-<select name="id">
-{% for variant in product.variants %}
-{% if variant.available == true %}
-<option value="{{variant.id}}"> {{ variant.title }} for {{ variant.price | money_with_currency }}</option>
-{% else %}
-<option disabled="disabled"> {{ variant.title }} - sold out!</option>
-{% endif %}
+<div class="wrapper">
+    {{ 'style.css' | asset_url | stylesheet_tag }}
+{% for collection in collections %}
+        
+    <h1>{{ collection.title }}</h1>
+    {% unless collection.description == blank %} 
+        <p>{{   collection.description}}</p>
+    {% endunless %}
+    
+    <div class="container-box">
+            {% for product in collection.products %}
+
+        <div class="box">        
+        <a style="color: {{settings.link_color}}" href="{{product.url}}"> Add to Cart</a>
+        <img src= {{product | image_url}} alt="{{ product.title }}">
+        <h2>{{ product.title }}</h2>
+        <h2>{{ product.price |  money_with_currency}}</h2>
+        </div>
+        
+        {% else %}
+            <p>There is no product in {{collection.title}}</p>
+        {% endfor %}
+        </div>
+        
 {% endfor %}
-</select>
-<input type="submit" name="add" id="add" value="Add to Cart" class="button">
-</form>
+</div>
+
