@@ -14,11 +14,11 @@
             {{ page.metafields.custom.simple_text }}
           </div>
           <div class="metafield input">
-            {% raw %} page.metafields.custom.simple_text_list_
+            {% raw %} page.metafields.custom.simple_text.value
  {% endraw %}
           </div>
           <div class="metafield">
-            {{page.metafields.custom.simple_text_list_}}
+            {{ page.metafields.custom.simple_text.value }}
           </div>
         </div>
       </div>
@@ -26,10 +26,10 @@
         <div class="label">Text (List)</div>
         <div class="section-right">
           <div class="metafield input">
-            {% raw %}  {% endraw %}
+            {% raw %} page.metafields.custom.simple_text_list_ {% endraw %}
           </div>
           <div class="metafield">
-            {{ '' }}
+            {{ page.metafields.custom.simple_text_list_}}
           </div>
           <div class="metafield input">
             {% raw %} 
