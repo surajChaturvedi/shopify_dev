@@ -148,7 +148,7 @@
           </div>
           <div class="metafield input">
             {% raw %} 
-                  page.metafields.custom.json.value.name
+                  
             {% endraw %}
           </div>
           <div class="metafield">
@@ -166,10 +166,10 @@
         <div class="label">JSON Object</div>
         <div class="section-right">
           <div class="metafield input">
-            {% raw %}  {% endraw %}
+            {% raw %} page.metafields.custom.json.value.name {% endraw %}
           </div>
           <div class="metafield">
-            {{ '' }}
+            {{ page.metafields.custom.json.value.name }}
           </div>
           <div class="metafield input">
             {% raw %}  {% endraw %}
