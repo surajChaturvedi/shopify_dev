@@ -299,9 +299,10 @@
 
      {%unless template.name == 'index' %}
     {% sections 'footer-group' %}
+       {{ hello }}
     {% endunless %}
      
-    {{ template.name }}
+    {{ template }}
       
     <ul hidden>
       <li id="a11y-refresh-page-message">{{ 'accessibility.refresh_page' | t }}</li>
