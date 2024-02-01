@@ -297,7 +297,7 @@
       {{ content_for_layout }}
     </main>
 
-     {%unless  template.name == 'index' %}
+     {%unless product.handle == 'sweater-women' or template.name == 'index' %}
     {% sections 'footer-group' %}
     {% endunless %}
 
